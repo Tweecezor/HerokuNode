@@ -1,7 +1,9 @@
 {
   "name": "loftschool-nodejs-project",
   "version": "0.1.0",
-  "engines": "12.13.1",
+  "engines": {
+    "node": "12.13.1"
+  },
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.3.3",

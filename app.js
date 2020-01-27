@@ -51,6 +51,6 @@ if (!fs.existsSync(upload)) {
   fs.mkdirSync("./build/images/upload");
 }
 
-server.listen(3000, () => {
+server.listen(process.env.PORT || 3000, () => {
   console.log("server is ready");
 });

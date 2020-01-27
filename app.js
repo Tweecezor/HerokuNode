@@ -52,5 +52,5 @@ if (!fs.existsSync(upload)) {
 }
 
 server.listen(process.env.PORT || 3000, () => {
-  console.log("server is ready");
+  console.log("server is ready on port 3000");
 });

@@ -68,7 +68,7 @@ router.post("/api/registration", async (req, res, next) => {
     password: await helper.encryptPassword(req.body.password),
     image: "",
     permission: {
-      chat: { C: false, R: true, U: true, D: true },
+      chat: { C: true, R: true, U: true, D: true },
       news: { C: false, R: true, U: true, D: false },
       settings: { C: false, R: false, U: false, D: false }
       // admin\/
